@@ -49,3 +49,8 @@ table {
 input:focus {
 	outline:none;
 }
+a {
+    color: inherit;
+	    /*부모로부터 상속받기*/
+		text-decoration: none;
+}

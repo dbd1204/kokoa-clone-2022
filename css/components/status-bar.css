@@ -1,6 +1,11 @@
 .status-bar {
+    position: sticky;
+    /*상하좌우 주어진 임계치에 도달하면 그 자리에 고정되는 속성*/
+    top: 0;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     padding: 5px 3px;
 }
 .status-bar__column {
