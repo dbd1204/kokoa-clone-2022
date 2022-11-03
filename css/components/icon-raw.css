@@ -1,0 +1,62 @@
+
+.icons-raw {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icons-raw__icon {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px var(--horizontal-space);
+}
+
+.icons-raw__icon span {
+    margin-top: 20px;
+    /*아이콘도 이런식으로 사이즈 조절이 가능하다. font-size
+    단, class를 안 적고 i {}로 적으면 모든 아이콘 사이즈가 바뀜*/
+}
+
+.more-suggestions {
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: 30px;
+}
+
+.more-suggestions__title {
+    margin-bottom: 30px;
+}
+
+.more-suggestions__icons {
+    display: flex;
+    margin-right: 50px;
+}
+
+.more-suggestions__icon {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-suggestions__icon-image {
+    width: 60px;
+    height:60px;
+    background-color: var(--yellow);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-suggestions__icon-image i {
+    font-size: 28px;
+    color: white;
+}
+
+.more-suggestions__icon-text {
+    display: block;
+    margin-top: 20px;
+}
