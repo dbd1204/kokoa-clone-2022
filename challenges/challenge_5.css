@@ -1,0 +1,124 @@
+.playlist_screen {
+    width: 414px;
+    padding: 20px 30px;
+    background-color: white;
+    border: 10px solid aquamarine;
+}
+
+.status-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.status-bar__column {
+    width: 33%;
+}
+
+.status-bar__column:first-child i {
+    padding: 20px 0px;
+}
+
+.status-bar__column:nth-child(2) h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.playmusic_component {
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.playmusic_component,
+.playmusic_componet__column:first-child{
+    display: flex;
+    align-items: center;
+}
+
+.playmusic_componet__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.playmusic_componet__img2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.playmusic_componet__title {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.playmusic_componet__subtitle {
+    margin-bottom: 0;
+}
+
+.playmusic_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.playmusic_button__column {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #000000;
+    border-radius: 100%;
+    border-bottom-width: thick;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playmusic_button__column:first-child:hover {
+    background-color: lemonchiffon;
+}
+
+.playmusic_button__column:nth-child(2):hover {
+    background-color: lightpink; 
+}
+
+.playmusic_button__column:last-child:hover {
+    background-color: rgb(182, 244, 255); 
+}
+
+.playmusic_button__column:first-child span {
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.playmusic_button__column:first-child {
+    width: 180px;
+    height: 70px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    border-bottom-width: thick;
+}
+
+.playlist_componet__column {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.playlist_componet__title {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.playlist_componet__subtitle {
+    margin: 0;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 400;
+}
