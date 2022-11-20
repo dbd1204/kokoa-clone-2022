@@ -95,7 +95,7 @@ margin: 10px;
 .open-post__heart-count {
     background-color: var(--yellow);
     opacity: 0.7;
-    color: black;
+    color: rgba(15,15,15);
     padding: 5px;
     border-radius: 25px;
     display: flex;
@@ -129,4 +129,24 @@ margin: 10px;
 
 .recommended-friends > .user-component {
     margin-top: 30px;
+}
+
+.open-post__heart-count:hover i {
+    animation: scaleheart 1s linear infinite;
+    will-change: transform;
+}
+
+@keyframes scaleheart {
+    0%{
+        transform: none;
+        color: rgba(15,15,15);
+    }
+    50%{
+        transform: scale(1.5);
+        color: tomato;
+    }
+    100%{
+        transform: none;
+        color: rgba(15,15,15);
+    }
 }
