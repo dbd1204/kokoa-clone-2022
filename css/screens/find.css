@@ -9,15 +9,12 @@
 
 .recommended-friends__title {
     font-size: 14px;
-    color:  var(--font-color);
 }
 
 .recommended-friends span {
     margin: 80px 0;
     display: block;
-    /*span은 inline이므로 margin 적용안됨*/
     text-align: center;
-    color:  var(--font-color);
     font-size: 18px;
 }
 
@@ -49,8 +46,8 @@ margin: 20px 25px;
 
 .open-post__hashtags {
     text-transform: uppercase;
-    color: var(--font-color);
-    /*디자인 요소는 html에 소문자로 적고 css에서 대문자로 바꿔준다*/
+    font-size: 14px;
+    color: var(--yellow);
 }
 
 .open-post__members {
@@ -74,12 +71,12 @@ margin: 20px 25px;
 .open-post__members .divider {
 width: 2px;
 height: 10px;
-background-color: var(--font-color);
+background-color: rgba(73, 73, 73);
 margin: 10px;
 }
 
 .open-post__members-status {
-    color: blue;
+    color: var(--yellow);
     font-size: 14px;
 }
 
@@ -96,9 +93,9 @@ margin: 10px;
 }
 
 .open-post__heart-count {
-    background-color: rgba(0, 0, 0, 0.8);
-    opacity: 0.5;
-    color: white;
+    background-color: var(--yellow);
+    opacity: 0.7;
+    color: black;
     padding: 5px;
     border-radius: 25px;
     display: flex;
@@ -112,4 +109,24 @@ margin: 10px;
 .open-post:last-child {
     border-top: var(--main-border);
     padding: 20px 0px;
+}
+
+.open-post__heart-count i {
+    margin-right: 3px;
+}
+
+.recommended-friends__friends {
+    margin-top: 30px;
+}
+
+.recommended-friends__friends > img {
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.recommended-friends > .user-component {
+    margin-top: 30px;
 }

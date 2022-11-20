@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 11, 11);
-    color: white;
+    background-color: var(--yellow);
+    color: rgb(15, 15, 15);
     width: 25px;
     height: 25px;
     font-weight: 600;

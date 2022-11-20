@@ -4,21 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - Kokoa Talk</title>
+    <title>Find - X-MEN Talk</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
+        <span>X-MEN</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>18:43</span>
+        <span>11:26</span>
       </div>
       <div class="status-bar__column">
         <i class="fas fa-lock"></i>
-        <span>90%</span>
+        <span>99%</span>
         <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
@@ -27,67 +27,119 @@
       <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <div class="screen-header__point"></div><span><i class="fas fa-cog fa-lg"></i></span>
-      </i>
+        <div class="screen-header__point"></div>
+        <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
     <main class="find-screen">
       <div class="icons-raw">
-        <div class="icons-raw__icon"><i class="fas fa-qrcode fa-2x"></i><span>QR Code</span></div>
-        <div class="icons-raw__icon"><i class="far fa-address-book fa-2x"></i><span>Add by Contacts</span></div>
-        <div class="icons-raw__icon"><i class="fas fa-at fa-2x"></i><span>Add by ID</span></div>
-        <div class="icons-raw__icon"><i class="far fa-envelope fa-2x"></i><span>Invite</span></div>
+        <div class="icons-raw__icon">
+          <i class="fas fa-qrcode fa-2x"></i><span>QR Code</span>
+        </div>
+        <div class="icons-raw__icon">
+          <i class="far fa-address-book fa-2x"></i><span>Add by Contacts</span>
+        </div>
+        <div class="icons-raw__icon">
+          <i class="fas fa-at fa-2x"></i><span>Add by ID</span>
+        </div>
+        <div class="icons-raw__icon">
+          <i class="far fa-envelope fa-2x"></i><span>Invite</span>
+        </div>
       </div>
+
       <div class="recommended-friends">
         <h6 class="recommended-friends__title">recommended friends</h6>
-        <span>You have no recommended friends.</span>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/ref_1.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4
+                class="user-component__title--user-component__title--not-bold"
+              >
+                Spider Man
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <i class="fas fa-user-plus fa-lg"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/ref_2.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4
+                class="user-component__title--user-component__title--not-bold"
+              >
+                Peter Parker
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <i class="fas fa-user-plus fa-lg"></i>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="open-chat">
         <div class="open-chat__header">
           <h4>Open Chat</h4>
-          <span>Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i></span>
+          <span
+            >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i
+          ></span>
         </div>
-      <div class="open-post">
-        <div class="open-post__column">
-          <h5 class="open-post__title">X-Men</h5>
-          <h6 class="open-post__hashtags">#Erik#hank#logan#deadpool</h6>
-          <div class="open-post__members">
-            <img src="https://metro.co.uk/wp-content/uploads/2014/05/ay_103090811-e1426499226784.jpg?quality=90&strip=all"/>
-            <span class="open-post__members-count">Hank</span>
-            <div class="divider"></div>
-            <span class="open-post__members-status">Active</span>  
-        </div>
-        </div>
-        <div class="open-post__column">
-          <div class="open-post__photo">
-          <img src="https://metro.co.uk/wp-content/uploads/2014/05/ay_103090811-e1426499226784.jpg?quality=90&strip=all"/>
-            <div class="open-post__heart-count">
-              <i class="fas fa-heart fa-xs"></i><span>2011</span>
-                 </div>
-                </div>
-        </div>
-    </div>
-    <div class="open-post">
-      <div class="open-post__column">
-        <h5 class="open-post__title">Mutant</h5>
-        <h6 class="open-post__hashtags">#Mystique#raven#mutantandproud</h6>
-        <div class="open-post__members">
-          <img src="https://qph.cf2.quoracdn.net/main-qimg-d33ced2550069d54d757191fb3e4941c-lq"/>
-          <span class="open-post__members-count">Raven</span>
-          <div class="divider"></div>
-          <span class="open-post__members-status">Active</span>  
-      </div>
-      </div>
-      <div class="open-post__column">
-        <div class="open-post__photo">
-        <img src="https://qph.cf2.quoracdn.net/main-qimg-d33ced2550069d54d757191fb3e4941c-lq"/>
-          <div class="open-post__heart-count">
-            <i class="fas fa-heart fa-xs"></i><span>2014</span>
-               </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">Brotherhood</h5>
+            <h6 class="open-post__hashtags">#Erik #Magneto #Mutant</h6>
+            <div class="open-post__members">
+              <img src="img/opc1.jpg" />
+              <span class="open-post__members-count">Magneto</span>
+              <div class="divider"></div>
+              <span class="open-post__members-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="img/opc1.jpg" />
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart fa-xs"></i><span>2014</span>
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">Xavier School Study</h5>
+            <h6 class="open-post__hashtags">#Hank #X-MEN #Study</h6>
+            <div class="open-post__members">
+              <img src="img/opc2.jpg" />
+              <span class="open-post__members-count">Hank Mccoy</span>
+              <div class="divider"></div>
+              <span class="open-post__members-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="img/opc2.jpg" />
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart fa-xs"></i><span>24</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-  </div>
-    </div>
     </main>
     <nav class="nav">
       <ul class="nav__list">
@@ -98,7 +150,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
+            <span class="nav__notification badge">3</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>

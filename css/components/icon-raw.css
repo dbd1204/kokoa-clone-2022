@@ -35,7 +35,7 @@
 }
 
 .more-suggestions__icon {
-    margin-right: 100px;
+    margin-right: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,14 +44,21 @@
 .more-suggestions__icon-image {
     width: 60px;
     height:60px;
-    background-color: var(--yellow);
+    background-color: rgb(15, 15, 15);
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.more-suggestions__icon-image i {
+.more-suggestions__icon-image > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.more-suggestions__icon-image i{
     font-size: 28px;
     color: white;
 }

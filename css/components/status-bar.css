@@ -24,3 +24,7 @@
 .status-bar__column .fa-lock, .fa-battery-full, .fa-bolt  {
     margin: 0px 5px;
 }
+
+.fa-battery-full, .fa-bolt {
+    color: rgb(0, 197, 0);
+}
