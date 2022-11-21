@@ -28,3 +28,16 @@
 .fa-battery-full, .fa-bolt {
     color: rgb(0, 197, 0);
 }
+
+.fa-bolt {
+    animation: boltani 1.5s linear infinite;
+}
+
+@keyframes boltani {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}

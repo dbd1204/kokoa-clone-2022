@@ -5,6 +5,7 @@
     box-sizing: border-box;
     padding: 20px 50px;
     border-top: var(--main-border);
+    background-color: rgba(15, 15, 15);
 }
 
 .nav i {
@@ -82,4 +83,7 @@
 
 .nav__btn:last-child {
     animation-delay: 1.5s;
+}
+.nav__notice {
+    animation: appearbtnani 1.5s ease-in-out infinite;
 }

@@ -14,5 +14,5 @@
 
 .setting__setting-column:last-child {
     margin-left: auto;
-    color: var(--font-color);
+    color: rgba(73,73,73);
 }

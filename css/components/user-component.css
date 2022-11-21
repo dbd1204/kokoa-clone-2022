@@ -77,3 +77,32 @@ font-weight: 400;
 .user-component__title {
     margin-bottom: 5px;
 }
+
+.fa-exclamation {
+    margin-top: 8px;
+    margin-left: 8px;
+    color: var(--yellow);
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.friends-screen .user-component:nth-child(n+2):hover {
+    padding: 15px 15px;
+    box-shadow: 0 5px 18px -7px var(--yellow);
+    border-radius: 15px;
+
+}
+
+.main-screen .user-component:hover {
+    padding: 15px 15px;
+    box-shadow: 0 5px 18px -7px var(--yellow);
+    border-radius: 15px;
+
+}
+
+.more-screen .user-component:hover {
+    padding: 0px;
+    box-shadow: none;
+    border-radius: 0px;
+}

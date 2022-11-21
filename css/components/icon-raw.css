@@ -15,9 +15,7 @@
 
 .icons-raw__icon span {
     margin-top: 20px;
-    /*아이콘도 이런식으로 사이즈 조절이 가능하다. font-size
-    단, class를 안 적고 i {}로 적으면 모든 아이콘 사이즈가 바뀜*/
-}
+    }
 
 .more-suggestions {
     margin-top: 50px;
@@ -66,4 +64,20 @@
 .more-suggestions__icon-text {
     display: block;
     margin-top: 20px;
+}
+
+.icons-raw__icon:hover {
+    animation: irowani 1s ease-in-out;
+}
+
+@keyframes irowani {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-3px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }

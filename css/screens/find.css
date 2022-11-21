@@ -1,4 +1,6 @@
-
+.find-screen {
+    height: 100vh;
+}
 
 .recommended-friends {
     margin: 25px;
@@ -149,4 +151,8 @@ margin: 10px;
         transform: none;
         color: rgba(15,15,15);
     }
+}
+
+.fa-user-plus:hover {
+    color: var(--yellow);
 }
